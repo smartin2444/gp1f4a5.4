@@ -12,9 +12,8 @@
 			}
 			else{
 				if ((($_GET["e1"]=="a") and  ($_GET["e2"]=="b")) or (($_GET["e1"]=="b") and  ($_GET["e2"]=="a"))){
-					echo "Special match: Price: 15 Euros</br>";
-				}
-				else {
+                                        echo "Special match: Price: 13 Euros</br>";
+                                } else {
 					echo "Basic match. Price: 10 Euros</br>";
 				}
 			}
