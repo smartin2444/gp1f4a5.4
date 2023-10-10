@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     end
   
     # no va si pongo esto ↓
-    config.vm.network "public_network"
+    #config.vm.network "public_network"
   
     config.vm.network "forwarded_port", guest: 80, host: 8000
   
